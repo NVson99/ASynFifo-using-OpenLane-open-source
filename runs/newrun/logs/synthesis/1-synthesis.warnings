@@ -1,0 +1,12 @@
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+Warning: Wire AsynFifo.\r_data [7] is used but has no driver.
+Warning: Wire AsynFifo.\r_data [6] is used but has no driver.
+Warning: Wire AsynFifo.\r_data [5] is used but has no driver.
+Warning: Wire AsynFifo.\r_data [4] is used but has no driver.
+Warning: Wire AsynFifo.\r_data [3] is used but has no driver.
+Warning: Wire AsynFifo.\r_data [2] is used but has no driver.
+Warning: Wire AsynFifo.\r_data [1] is used but has no driver.
+Warning: Wire AsynFifo.\r_data [0] is used but has no driver.
+Warning: Wire AsynFifo.\full is used but has no driver.
+Warning: Wire AsynFifo.\empty is used but has no driver.
+Warnings: 10 unique messages, 10 total

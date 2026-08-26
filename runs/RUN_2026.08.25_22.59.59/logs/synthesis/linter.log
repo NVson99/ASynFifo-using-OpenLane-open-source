@@ -1,0 +1,55 @@
+%Warning-EOFNEWLINE: /openlane/designs/AsynFifo/src/AsynFifo.v:101:10: Missing newline at end of file (POSIX 3.206).
+                                                                     : ... Suggest add newline.
+  101 | endmodule
+      |          ^
+                     ... For warning description see https://verilator.org/warn/EOFNEWLINE?v=5.009
+                     ... Use "/* verilator lint_off EOFNEWLINE */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /openlane/designs/AsynFifo/src/AsynFifo.v:39:34: Operator ADD expects 5 bits on the RHS, but RHS's VARREF 'wr_en' generates 1 bits.
+                                                                     : ... In instance AsynFifo
+   39 |     assign w_ptr_bnext = w_ptr_b +(wr_en);
+      |                                  ^
+%Warning-WIDTHEXPAND: /openlane/designs/AsynFifo/src/AsynFifo.v:41:34: Operator ADD expects 5 bits on the RHS, but RHS's VARREF 'rd_en' generates 1 bits.
+                                                                     : ... In instance AsynFifo
+   41 |     assign r_ptr_bnext = r_ptr_b +(rd_en);
+      |                                  ^
+%Warning-WIDTHTRUNC: /openlane/designs/AsynFifo/src/AsynFifo.v:43:18: Operator ASSIGNW expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'data_temp' generates 5 bits.
+                                                                    : ... In instance AsynFifo
+   43 |     assign r_data= data_temp;
+      |                  ^
+%Warning-WIDTHTRUNC: /openlane/designs/AsynFifo/src/AsynFifo.v:47:43: Operator ASSIGNDLY expects 4 bits on the Assign RHS, but Assign RHS's VARREF 'w_data' generates 5 bits.
+                                                                    : ... In instance AsynFifo
+   47 |               mem[w_ptr_b[ADDR_WIDTH-1:0]]<= w_data;              
+      |                                           ^~
+%Warning-WIDTHEXPAND: /openlane/designs/AsynFifo/src/AsynFifo.v:63:17: Operator ASSIGNDLY expects 5 bits on the Assign RHS, but Assign RHS's ARRAYSEL generates 4 bits.
+                                                                     : ... In instance AsynFifo
+   63 |       data_temp <= mem[r_ptr_b[ADDR_WIDTH-1:0]];
+      |                 ^~
+%Warning-UNUSEDPARAM: /openlane/designs/AsynFifo/src/AsynFifo.v:2:15: Parameter is not used: 'DATA_WIDTH'
+                                                                    : ... In instance AsynFifo
+    2 |     parameter DATA_WIDTH = 8,
+      |               ^~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/AsynFifo/src/AsynFifo.v:9:28: Bits of signal are not used: 'w_data'[4]
+                                                                     : ... In instance AsynFifo
+    9 |    input   [ADDR_WIDTH:0]  w_data,
+      |                            ^~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/AsynFifo/src/AsynFifo.v:25:38: Signal is not used: 'r_ptr_g'
+                                                                      : ... In instance AsynFifo
+   25 |     reg [ADDR_WIDTH:0]      w_ptr_g, r_ptr_g;  
+      |                                      ^~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/AsynFifo/src/AsynFifo.v:27:47: Signal is not used: 'w_ptr_gray_sync2'
+                                                                      : ... In instance AsynFifo
+   27 |    reg[ADDR_WIDTH:0]        w_ptr_gray_sync1, w_ptr_gray_sync2;    
+      |                                               ^~~~~~~~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/AsynFifo/src/AsynFifo.v:31:24: Bits of signal are not used: 'data_temp'[4]
+                                                                      : ... In instance AsynFifo
+   31 |     reg [ADDR_WIDTH:0] data_temp;
+      |                        ^~~~~~~~~
+%Warning-MULTIDRIVEN: /openlane/designs/AsynFifo/src/AsynFifo.v:15:32: Bits [3:0] of signal 'r_data' have multiple combinational drivers
+                                                                     : ... In instance AsynFifo
+                      /openlane/designs/AsynFifo/src/AsynFifo.v:43:18: ... Location of first driver
+   43 |     assign r_data= data_temp;
+      |                  ^
+                      /openlane/designs/AsynFifo/src/AsynFifo.v:97:16: ... Location of other driver
+   97 |  assign r_data = mem[r_ptr_gray_sync2[ADDR_WIDTH-1:0]];
+      |                ^
+                      /openlane/designs/AsynFifo/src/AsynFifo.v:15:32: ... Only the first driver will be respected

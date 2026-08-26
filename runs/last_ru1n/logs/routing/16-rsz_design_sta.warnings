@@ -1,0 +1,9 @@
+[WARNING GRT-0026] Missing route to pin _1051_/D.
+[WARNING GRT-0026] Missing route to pin _0835_/Y.
+[WARNING GRT-0026] Missing route to pin _0920_/Q.
+[WARNING GRT-0026] Missing route to pin fanout26/X.
+[WARNING GRT-0026] Missing route to pin _0920_/CLK.
+[WARNING GRT-0026] Missing route to pin hold22/X.
+Warning: There are 27 unclocked register/latch pins.
+Warning: There are 41 unconstrained endpoints.
+[WARNING] Did not save OpenROAD database!

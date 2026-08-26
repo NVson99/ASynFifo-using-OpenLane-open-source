@@ -1,0 +1,26 @@
+%Warning-EOFNEWLINE: /openlane/designs/AsynFifo/src/AsynFifo.v:104:10: Missing newline at end of file (POSIX 3.206).
+                                                                     : ... Suggest add newline.
+  104 | endmodule
+      |          ^
+                     ... For warning description see https://verilator.org/warn/EOFNEWLINE?v=5.009
+                     ... Use "/* verilator lint_off EOFNEWLINE */" and lint_on around source to disable this message.
+%Warning-WIDTHEXPAND: /openlane/designs/AsynFifo/src/AsynFifo.v:36:34: Operator ADD expects 5 bits on the RHS, but RHS's VARREF 'wr_en' generates 1 bits.
+                                                                     : ... In instance AsynFifo
+   36 |     assign w_ptr_bnext = w_ptr_b + wr_en;
+      |                                  ^
+%Warning-WIDTHEXPAND: /openlane/designs/AsynFifo/src/AsynFifo.v:37:34: Operator ADD expects 5 bits on the RHS, but RHS's VARREF 'rd_en' generates 1 bits.
+                                                                     : ... In instance AsynFifo
+   37 |     assign r_ptr_bnext = r_ptr_b + rd_en;
+      |                                  ^
+%Warning-UNOPTFLAT: /openlane/designs/AsynFifo/src/AsynFifo.v:9:33: Signal unoptimizable: Circular combinational logic: 'full'
+    9 |     output                      full,
+      |                                 ^~~~
+                    /openlane/designs/AsynFifo/src/AsynFifo.v:9:33:      Example path: full
+                    /openlane/designs/AsynFifo/src/AsynFifo.v:32:16:      Example path: ASSIGNW
+                    /openlane/designs/AsynFifo/src/AsynFifo.v:32:10:      Example path: AsynFifo.wr_en
+                    /openlane/designs/AsynFifo/src/AsynFifo.v:36:24:      Example path: ASSIGNW
+                    /openlane/designs/AsynFifo/src/AsynFifo.v:24:25:      Example path: AsynFifo.w_ptr_bnext
+                    /openlane/designs/AsynFifo/src/AsynFifo.v:39:24:      Example path: ASSIGNW
+                    /openlane/designs/AsynFifo/src/AsynFifo.v:26:25:      Example path: AsynFifo.w_ptr_gnext
+                    /openlane/designs/AsynFifo/src/AsynFifo.v:100:18:      Example path: ASSIGNW
+                    /openlane/designs/AsynFifo/src/AsynFifo.v:9:33:      Example path: full

@@ -1,0 +1,1 @@
+lvs {/openlane/designs/AsynFifo/runs/last_ru1n/results/signoff/AsynFifo.spice AsynFifo} {/openlane/designs/AsynFifo/runs/last_ru1n/tmp/signoff/35-AsynFifo.pnl.v AsynFifo} /home/nguyenson99/.ciel/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/AsynFifo/runs/last_ru1n/logs/signoff/38-AsynFifo.lef.lvs.log -json

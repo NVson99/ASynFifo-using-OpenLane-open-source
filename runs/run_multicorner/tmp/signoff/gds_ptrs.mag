@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 200000 200000
+string GDS_END 12254620
+string GDS_FILE /openlane/designs/AsynFifo/runs/run_multicorner/results/signoff/AsynFifo.magic.gds
+string GDS_START 391890
+<< end >>

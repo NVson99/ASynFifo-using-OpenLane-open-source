@@ -1,0 +1,25 @@
+
+53. Printing statistics.
+
+=== AsynFifo ===
+
+   Number of wires:                383
+   Number of wire bits:            564
+   Number of public wires:          40
+   Number of public wire bits:     214
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                546
+     $_ANDNOT_                      27
+     $_AND_                          4
+     $_MUX_                        274
+     $_NAND_                         4
+     $_NOT_                         13
+     $_ORNOT_                        4
+     $_OR_                          19
+     $_XNOR_                         7
+     $_XOR_                         20
+     sky130_fd_sc_hd__dfrtp_2       38
+     sky130_fd_sc_hd__dfxtp_2      136
+

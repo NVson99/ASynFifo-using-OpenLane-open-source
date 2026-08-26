@@ -1,0 +1,19 @@
+Design Name: AsynFifo
+Run Directory: /openlane/designs/AsynFifo/runs/run_1
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/AsynFifo/runs/run_1/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/AsynFifo/runs/run_1/logs/signoff/38-AsynFifo.lef.lvs.log
+Number of nets: 826                        |Number of nets: 826                        
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/AsynFifo/runs/run_1/logs/signoff/40-arc.log
+Pin violations: 11
+Net violations: 9

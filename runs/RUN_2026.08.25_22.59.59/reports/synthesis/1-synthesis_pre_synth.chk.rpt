@@ -1,0 +1,16 @@
+
+17. Executing CHECK pass (checking for obvious problems).
+Checking module AsynFifo...
+Warning: multiple conflicting drivers for AsynFifo.$memrd$\mem$/openlane/designs/AsynFifo/src/AsynFifo.v:97$29_DATA [3]:
+    port Q[3] of cell $procdff$58 ($dff)
+    port DATA[3] of cell $memrd$\mem$/openlane/designs/AsynFifo/src/AsynFifo.v:97$29 ($memrd)
+Warning: multiple conflicting drivers for AsynFifo.$memrd$\mem$/openlane/designs/AsynFifo/src/AsynFifo.v:97$29_DATA [2]:
+    port Q[2] of cell $procdff$58 ($dff)
+    port DATA[2] of cell $memrd$\mem$/openlane/designs/AsynFifo/src/AsynFifo.v:97$29 ($memrd)
+Warning: multiple conflicting drivers for AsynFifo.$memrd$\mem$/openlane/designs/AsynFifo/src/AsynFifo.v:97$29_DATA [1]:
+    port Q[1] of cell $procdff$58 ($dff)
+    port DATA[1] of cell $memrd$\mem$/openlane/designs/AsynFifo/src/AsynFifo.v:97$29 ($memrd)
+Warning: multiple conflicting drivers for AsynFifo.$memrd$\mem$/openlane/designs/AsynFifo/src/AsynFifo.v:97$29_DATA [0]:
+    port Q[0] of cell $procdff$58 ($dff)
+    port DATA[0] of cell $memrd$\mem$/openlane/designs/AsynFifo/src/AsynFifo.v:97$29 ($memrd)
+Found and reported 4 problems.

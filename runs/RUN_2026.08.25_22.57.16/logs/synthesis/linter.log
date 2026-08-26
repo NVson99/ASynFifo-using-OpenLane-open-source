@@ -1,0 +1,8 @@
+%Warning-EOFNEWLINE: /openlane/designs/AsynFifo/src/AsynFifo.v:101:10: Missing newline at end of file (POSIX 3.206).
+                                                                     : ... Suggest add newline.
+  101 | endmodule
+      |          ^
+                     ... For warning description see https://verilator.org/warn/EOFNEWLINE?v=5.009
+                     ... Use "/* verilator lint_off EOFNEWLINE */" and lint_on around source to disable this message.
+%Error: Specified --top-module 'AsynFifo' was not found in design.
+%Error: Exiting due to 1 error(s)

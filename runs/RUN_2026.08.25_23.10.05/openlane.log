@@ -1,0 +1,96 @@
+[INFO]: Run Directory: /openlane/designs/AsynFifo/runs/RUN_2026.08.25_23.10.05
+[INFO]: Saving runtime environment...
+[INFO]: Preparing LEF files for the nom corner...
+[INFO]: Preparing LEF files for the min corner...
+[INFO]: Preparing LEF files for the max corner...
+[INFO]: Running linter (Verilator) (log: designs/AsynFifo/runs/RUN_2026.08.25_23.10.05/logs/synthesis/linter.log)...
+[INFO]: 0 errors found by linter
+[WARNING]: 4 warnings found by linter
+[INFO]: Running Synthesis (log: designs/AsynFifo/runs/RUN_2026.08.25_23.10.05/logs/synthesis/1-synthesis.log)...
+[ERROR]: Yosys checks have failed: Encountered check error:
+Warning: found logic loop in module AsynFifo:
+    cell $add$/openlane/designs/AsynFifo/src/AsynFifo.v:36$6 ($add)
+    cell $and$/openlane/designs/AsynFifo/src/AsynFifo.v:32$3 ($and)
+    cell $eq$/openlane/designs/AsynFifo/src/AsynFifo.v:100$30 ($eq)
+    cell $not$/openlane/designs/AsynFifo/src/AsynFifo.v:32$2 ($not)
+    cell $xor$/openlane/designs/AsynFifo/src/AsynFifo.v:39$9 ($xor)
+    wire $add$/openlane/designs/AsynFifo/src/AsynFifo.v:36$6_Y [0]
+    wire $and$/openlane/designs/AsynFifo/src/AsynFifo.v:32$3_Y
+    wire $eq$/openlane/designs/AsynFifo/src/AsynFifo.v:100$30_Y
+    wire $not$/openlane/designs/AsynFifo/src/AsynFifo.v:32$2_Y
+    wire $xor$/openlane/designs/AsynFifo/src/AsynFifo.v:39$9_Y [0]
+
+Encountered check error:
+Warning: found logic loop in module AsynFifo:
+    cell $add$/openlane/designs/AsynFifo/src/AsynFifo.v:36$6 ($add)
+    cell $and$/openlane/designs/AsynFifo/src/AsynFifo.v:32$3 ($and)
+    cell $eq$/openlane/designs/AsynFifo/src/AsynFifo.v:100$30 ($eq)
+    cell $not$/openlane/designs/AsynFifo/src/AsynFifo.v:32$2 ($not)
+    cell $xor$/openlane/designs/AsynFifo/src/AsynFifo.v:39$9 ($xor)
+    wire $add$/openlane/designs/AsynFifo/src/AsynFifo.v:36$6_Y [1]
+    wire $and$/openlane/designs/AsynFifo/src/AsynFifo.v:32$3_Y
+    wire $eq$/openlane/designs/AsynFifo/src/AsynFifo.v:100$30_Y
+    wire $not$/openlane/designs/AsynFifo/src/AsynFifo.v:32$2_Y
+    wire $xor$/openlane/designs/AsynFifo/src/AsynFifo.v:39$9_Y [0]
+
+Encountered check error:
+Warning: found logic loop in module AsynFifo:
+    cell $add$/openlane/designs/AsynFifo/src/AsynFifo.v:36$6 ($add)
+    cell $and$/openlane/designs/AsynFifo/src/AsynFifo.v:32$3 ($and)
+    cell $eq$/openlane/designs/AsynFifo/src/AsynFifo.v:100$30 ($eq)
+    cell $not$/openlane/designs/AsynFifo/src/AsynFifo.v:32$2 ($not)
+    cell $xor$/openlane/designs/AsynFifo/src/AsynFifo.v:39$9 ($xor)
+    wire $add$/openlane/designs/AsynFifo/src/AsynFifo.v:36$6_Y [2]
+    wire $and$/openlane/designs/AsynFifo/src/AsynFifo.v:32$3_Y
+    wire $eq$/openlane/designs/AsynFifo/src/AsynFifo.v:100$30_Y
+    wire $not$/openlane/designs/AsynFifo/src/AsynFifo.v:32$2_Y
+    wire $xor$/openlane/designs/AsynFifo/src/AsynFifo.v:39$9_Y [0]
+
+Encountered check error:
+Warning: found logic loop in module AsynFifo:
+    cell $add$/openlane/designs/AsynFifo/src/AsynFifo.v:36$6 ($add)
+    cell $and$/openlane/designs/AsynFifo/src/AsynFifo.v:32$3 ($and)
+    cell $eq$/openlane/designs/AsynFifo/src/AsynFifo.v:100$30 ($eq)
+    cell $not$/openlane/designs/AsynFifo/src/AsynFifo.v:32$2 ($not)
+    cell $xor$/openlane/designs/AsynFifo/src/AsynFifo.v:39$9 ($xor)
+    wire $add$/openlane/designs/AsynFifo/src/AsynFifo.v:36$6_Y [3]
+    wire $and$/openlane/designs/AsynFifo/src/AsynFifo.v:32$3_Y
+    wire $eq$/openlane/designs/AsynFifo/src/AsynFifo.v:100$30_Y
+    wire $not$/openlane/designs/AsynFifo/src/AsynFifo.v:32$2_Y
+    wire $xor$/openlane/designs/AsynFifo/src/AsynFifo.v:39$9_Y [0]
+
+Encountered check error:
+Warning: found logic loop in module AsynFifo:
+    cell $add$/openlane/designs/AsynFifo/src/AsynFifo.v:36$6 ($add)
+    cell $and$/openlane/designs/AsynFifo/src/AsynFifo.v:32$3 ($and)
+    cell $eq$/openlane/designs/AsynFifo/src/AsynFifo.v:100$30 ($eq)
+    cell $not$/openlane/designs/AsynFifo/src/AsynFifo.v:32$2 ($not)
+    cell $xor$/openlane/designs/AsynFifo/src/AsynFifo.v:39$9 ($xor)
+    wire $add$/openlane/designs/AsynFifo/src/AsynFifo.v:36$6_Y [4]
+    wire $and$/openlane/designs/AsynFifo/src/AsynFifo.v:32$3_Y
+    wire $eq$/openlane/designs/AsynFifo/src/AsynFifo.v:100$30_Y
+    wire $not$/openlane/designs/AsynFifo/src/AsynFifo.v:32$2_Y
+    wire $xor$/openlane/designs/AsynFifo/src/AsynFifo.v:39$9_Y [0]
+
+child process exited abnormally
+[ERROR]: See the full report here: designs/AsynFifo/runs/RUN_2026.08.25_23.10.05/reports/synthesis/1-synthesis_pre_synth.chk.rpt
+[ERROR]: Step 1 (synthesis) failed with error:
+-code 1 -level 0 -errorcode NONE -errorinfo {
+    while executing
+"throw_error"
+    (procedure "check_synth_misc" line 17)
+    invoked from within
+"check_synth_misc $report"
+    (procedure "run_synthesis_checkers" line 5)
+    invoked from within
+"run_synthesis_checkers $log $pre_synth_report"
+    (procedure "run_synthesis" line 19)
+    invoked from within
+"run_synthesis"} -errorline 1
+[INFO]: Saving current set of views in 'designs/AsynFifo/runs/RUN_2026.08.25_23.10.05/results/final'...
+[INFO]: Generating final set of reports...
+[INFO]: Created manufacturability report at 'designs/AsynFifo/runs/RUN_2026.08.25_23.10.05/reports/manufacturability.rpt'.
+[INFO]: Created metrics report at 'designs/AsynFifo/runs/RUN_2026.08.25_23.10.05/reports/metrics.csv'.
+[INFO]: Saving runtime environment...
+[ERROR]: Flow failed.
+[INFO]: The failure may have been because of the following warnings:
